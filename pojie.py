@@ -8,7 +8,7 @@ with open("pass.txt","r") as dic:
     a=line.strip('\n')
     password.append(a)
 wps=win32com.clinet.Dispatch('word.Application')
-wps.Visible=True
+wps.Visible=1
 
 jj=0
 start_time=time.time()
@@ -18,7 +18,7 @@ for i in password:
     continue
   else:
     try:
-      wps.Documents.Open(r'E:\Reserch\xuexi\test.pptx',True,True,None,i)
+      wps.Documents.Open(r'E:\Reserch\xuexi\test.pptx',0,0,None,i)
       print(f'\rsuccess-{i}')
       break
     except:
