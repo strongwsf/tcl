@@ -35,4 +35,4 @@ for i in password:
       if jj %1==0:
         print(f"\r已完成{round(ps,3)}%，已花费时间{dt_h}h{dt_m}m{dt_s}s，预估剩余时间{st_h}h{st_m}m{st_s}s------{i}",end="")
       continue
-      
+  wps.Quit()    
