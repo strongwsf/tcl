@@ -5,11 +5,11 @@ input_secret_text_path="mimi.txt"
 def encode(s):
     value=""
     for c in s:
-    o=ord(c)
-    t=bin(o)
-    t=t.replace('0b','')
-    t=''.join([i for i in ['0']*(16-len(t))])+t
-    value=value+t
+        o=ord(c)
+        t=bin(o)
+        t=t.replace('0b','')
+        t=''.join([i for i in ['0']*(16-len(t))])+t
+        value=value+t
     return value
 
 def get_text_from_file():
