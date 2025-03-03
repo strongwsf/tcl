@@ -22,20 +22,20 @@ def display():
         break
     if index ==16:
       break
-    num=int(num,2)+1
-    total=num*16
-    binMsg=''
-    index=0
-    for i in range(width):
-      for j in range(height):
-        binMsg=binMsg+str(img[i,j,0]&1)
-        index+=1
-        if index>total:
-          break
+  num=int(num,2)+1
+  total=num*16
+  binMsg=''
+  index=0
+  for i in range(width):
+    for j in range(height):
+      binMsg=binMsg+str(img[i,j,0]&1)
+      index+=1
       if index>total:
         break
-    message=decode(binMsg[16:])
-    print(message)
+    if index>total:
+      break
+  message=decode(binMsg[16:])
+  print(message)
     
-if __name__='__main__':
+if __name__=='__main__':
   display()
