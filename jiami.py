@@ -16,7 +16,7 @@ def get_text_from_file():
     file=open(input_secret_text_path,mode='r',encoding='gbk')
     text=file.read()
     file.close()
-    retuen text
+    return text
 
 def hide():
     img=io.imread("section.png")
