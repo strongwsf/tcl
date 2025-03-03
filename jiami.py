@@ -1,5 +1,4 @@
 from skimage import io
-import matplotlib.pyplot as plt
 
 input_secret_text_path="mimi.txt"
 def encode(s):
