@@ -21,7 +21,7 @@ def get_text_from_file():
 def hide():
     img=io.imread("section.png")
     width,height,c=img.shape
-    print("此图片可以隐藏："，width*height//16,"个字符")
+    print("此图片可以隐藏：",width*height//16,"个字符")
     message=get_text_from_file()
     length=len(message)
     binlength=bin(length).replace('0b','')
