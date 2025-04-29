@@ -4,4 +4,6 @@ I have remembered that my Nexon account is "qwe".Since this email is no longer a
 
 This account has a history of recharge activities. Below are screenshots of all the transaction details I could find, serving as proof of my ownership of this account.
 
+If it's possible, could you please kindly change my email address from qwe to asd, since my previous email address is no longer accessible? Thank you!
+
 Thank you once again for all the help you have provided me!
